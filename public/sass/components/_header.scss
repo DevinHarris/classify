@@ -1,0 +1,35 @@
+header {
+	background: #1d1d1d;
+	box-sizing: border-box;
+	color: #fff;
+	height: 70px;
+	padding: 10px;
+	width: 100%;
+	
+	.logo {
+		display: inline-block;
+		font-size: 1.8em;
+		padding-left: 30px;
+	}
+
+	.search-wrap {
+		display: inline-block;
+		margin-left: 10px;
+		width: 50%;
+
+		.search-input {
+			background: transparent;
+			border: none;
+			color: #fff;
+			height: 30px;
+			font-size: 1em;
+			font-weight: 300;
+			outline: none;
+			width: 100%;
+
+			&:focus {
+				outline: none;
+			}
+		}
+	}
+}
